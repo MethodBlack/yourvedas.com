@@ -69,39 +69,6 @@ You can also start a new astro project based on an [official example](https://gi
 
 2. Run the following command in your terminal, substituting the official Astro starter template name, or the GitHub username and repository of the theme you want to use:
 
-    <Tabs>
-      <TabItem label="npm">
-      ```shell
-      # create a new project with an official example
-      npm create astro@latest -- --template <example-name>
-
-      # create a new project based on a GitHub repository’s main branch
-      npm create astro@latest -- --template <github-username>/<github-repo>
-      ```
-      </TabItem>
-      <TabItem label="pnpm">
-      ```shell
-      # create a new project with an official example
-      pnpm create astro@latest --template <example-name>
-      
-      # create a new project based on a GitHub repository’s main branch
-      pnpm create astro@latest --template <github-username>/<github-repo>
-      ```
-      </TabItem>
-      <TabItem label="yarn">
-      ```shell
-      # create a new project with an official example
-      yarn create astro --template <example-name>
-      
-      # create a new project based on a GitHub repository’s main branch
-      yarn create astro --template <github-username>/<github-repo>
-      ```
-      </TabItem>
-    </Tabs>
-
-    By default, this command will use the template repository’s `main` branch. To use a different branch name, pass it as part of the `--template` argument: `<github-username>/<github-repo>#<branch>`.
-
-
 3. Answer the questions and follow the instructions of the CLI wizard.
 
 4. You can now [start the Astro dev server](#start-the-astro-dev-server) and see a live preview of your project while you make it your own!

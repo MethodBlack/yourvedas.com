@@ -1,8 +1,8 @@
 @import "@new-ui/reset";
+@import "@new-ui/colors";
 @import "@new-ui/spacings";
 @import "@new-ui/typography";
-@import "@sargamdesign/colors/dist/themes/dark.css";
-@import "@sargamdesign/colors/dist/themes/dark.css";
+
 
 @font-face{
     font-family: 'Source Serif VF';
@@ -25,170 +25,26 @@
 }
 
 :root {
-    /* sargam colors*/
-    --yellow8: hsl(50, 87%, 18%);
-    --yellow7: hsl(50, 87%, 31%);
-    --yellow6: hsl(50, 87%, 43%);
-    --yellow5: hsl(50, 92%, 51%);
-    --yellow4: hsl(50, 92%, 59%);
-    --yellow3: hsl(50, 92%, 67%);
-    --yellow2: hsl(51, 91%, 86%);
-    --yellow1: hsl(48, 100%, 98%);
-    --teal8: hsl(177, 87%, 12%);
-    --teal7: hsl(177, 86%, 20%);
-    --teal6: hsl(177, 87%, 28%);
-    --teal5: hsl(177, 87%, 33%);
-    --teal4: hsl(177, 55%, 44%);
-    --teal3: hsl(178, 42%, 54%);
-    --teal2: hsl(177, 43%, 81%);
-    --teal1: hsl(132, 38%, 97%);
-    --silver8: hsl(0, 3%, 6%);
-    --silver7: hsl(30, 2%, 17%);
-    --silver6: hsl(48, 2%, 44%);
-    --silver5: hsl(45, 6%, 74%);
-    --silver4: hsl(47, 11%, 84%);
-    --silver3: hsl(43, 13%, 89%);
-    --silver2: hsl(30, 12%, 97%);
-    --silver1: hsl(0, 0%, 100%);
-    --red8: hsl(1, 67%, 20%);
-    --red7: hsl(1, 67%, 34%);
-    --red6: hsl(1, 67%, 48%);
-    --red5: hsl(1, 89%, 57%);
-    --red4: hsl(1, 89%, 64%);
-    --red3: hsl(1, 89%, 71%);
-    --red2: hsl(1, 90%, 88%);
-    --red1: hsl(0, 100%, 98%);
-    --pink8: hsl(331, 55%, 23%);
-    --pink7: hsl(332, 56%, 38%);
-    --pink6: hsl(331, 63%, 53%);
-    --pink5: hsl(331, 96%, 63%);
-    --pink4: hsl(331, 96%, 69%);
-    --pink3: hsl(331, 95%, 75%);
-    --pink2: hsl(331, 96%, 90%);
-    --pink1: hsl(334, 100%, 99%);
-    --lavender8: hsl(281, 34%, 18%);
-    --lavender7: hsl(282, 35%, 29%);
-    --lavender6: hsl(281, 35%, 41%);
-    --lavender5: hsl(281, 35%, 49%);
-    --lavender4: hsl(281, 34%, 57%);
-    --lavender3: hsl(281, 34%, 65%);
-    --lavender2: hsl(280, 33%, 86%);
-    --lavender1: hsl(270, 40%, 98%);
-    --green8: hsl(138, 79%, 13%);
-    --green7: hsl(138, 79%, 22%);
-    --green6: hsl(139, 78%, 31%);
-    --green5: hsl(138, 79%, 37%);
-    --green4: hsl(138, 51%, 47%);
-    --green3: hsl(139, 45%, 57%);
-    --green2: hsl(139, 45%, 82%);
-    --green1: hsl(132, 38%, 97%);
+    --serif: 'Source Serif VF', var(--transitional);
 
-    --text-success: var(--green4);
-    --text-error: var(--red4);
-    --text-on-color: var(--silver1);
-    --text-placeholder: var(--silver6);
-    --text-secondary: var(--silver5);
-    --text-primary-alt: var(--silver3);
-    --text-primary: var(--silver1);
-    --support-info: var(--teal4);
-    --support-success: var(--green4);
-    --support-warning: var(--yellow4);
-    --support-error: var(--red4);
-    --link-muted: var(--silver1);
-    --link-visited: var(--lavender4);
-    --link-subtle: var(--teal5);
-    --link-hover: var(--teal6);
-    --link: var(--teal4);
-    --icon-on-color: var(--silver8);
-    --icon-disabled: var(--silver6);
-    --icon-secondary: var(--silver5);
-    --icon-primary: var(--silver3);
-    --button-disabled-alt: var(--silver7);
-    --button-disabled: var(--silver6);
-    --button-danger-active: var(--red2);
-    --button-danger-hover: var(--red3);
-    --button-danger: var(--red4);
-    --button-secondary-active: var(--silver8);
-    --button-secondary-hover: var(--silver7);
-    --button-secondary: var(--silver6);
-    --button-primary-active: var(--teal2);
-    --button-primary-hover: var(--teal3);
-    --button-primary: var(--teal4);
-    --border-strong: var(--silver5);
-    --border-default: var(--silver6);
-    --border-muted: var(--silver7);
-    --background-pink: var(--pink8);
-    --background-lavender: var(--lavender8);
-    --background-teal: var(--teal8);
-    --background-green: var(--green8);
-    --background-yellow: var(--yellow8);
-    --background-red: var(--red8);
-    --background-selected: var(--silver6);
-    --background-subtle: var(--silver7);
-    --background: var(--silver8);
-
-	--sl-color-accent-low: var(--silver8);
+	--sl-color-accent-low: var(--link);
 	--sl-color-accent: var(--link);
 	--sl-color-accent-high: var(--link);
-	--sl-color-white: var(--silver1);
+	--sl-color-white: var(--white);
 	--sl-color-gray-1: var(--silver2);
 	--sl-color-gray-2: var(--silver3);
 	--sl-color-gray-3: var(--silver4);
 	--sl-color-gray-4: var(--silver5);
 	--sl-color-gray-5: var(--silver6);
-	--sl-color-gray-6: var(--silver7);
-	--sl-color-black: var(--silver8);
+	--sl-color-gray-6: var(--silver8);
+	--sl-color-black: var(--black);
 }
 
 :root[data-theme='light'] {
-    --text-success: var(green6);
-    --text-error: var(red6);
-    --text-on-color: var(silver1);
-    --text-placeholder: var(silver5);
-    --text-secondary: var(silver6);
-    --text-primary-alt: var(silver7);
-    --text-primary: var(silver8);
-    --support-info: var(teal5);
-    --support-success: var(green5);
-    --support-warning: var(yellow5);
-    --support-error: var(red5);
-    --link-muted: var(silver8);
-    --link-visited: var(lavender6);
-    --link-subtle: var(teal5);
-    --link-hover: var(teal7);
-    --link: var(teal6);
-    --icon-on-color: var(silver1);
-    --icon-disabled: var(silver5);
-    --icon-secondary: var(silver6);
-    --icon-primary: var(silver7);
-    --button-disabled-alt: var(silver4);
-    --button-disabled: var(silver5);
-    --button-danger-active: var(red7);
-    --button-danger-hover: var(red6);
-    --button-danger: var(red5);
-    --button-secondary-active: var(silver6);
-    --button-secondary-hover: var(silver7);
-    --button-secondary: var(silver8);
-    --button-primary-active: var(teal7);
-    --button-primary-hover: var(teal6);
-    --button-primary: var(teal5);
-    --border-strong: var(silver6);
-    --border-default: var(silver5);
-    --border-muted: var(silver3);
-    --background-pink: var(pink1);
-    --background-lavender: var(lavender1);
-    --background-teal: var(teal1);
-    --background-green: var(green1);
-    --background-yellow: var(yellow1);
-    --background-red: var(red1);
-    --background-selected: var(silver3);
-    --background-subtle: var(silver2);
-    --background: var(silver1);
-
 	--sl-color-accent-low: var(--silver1);
 	--sl-color-accent: var(--link);
 	--sl-color-accent-high: var(--link);
-	--sl-color-white: var(--silver8);
+	--sl-color-white: var(--black);
 	--sl-color-gray-1: var(--silver7);
 	--sl-color-gray-2: var(--silver6);
 	--sl-color-gray-3: var(--silver5);
@@ -196,38 +52,80 @@
 	--sl-color-gray-5: var(--silver3);
 	--sl-color-gray-6: var(--silver2);
 	--sl-color-gray-7: var(--silver1);
-	--sl-color-black: var(--silver1);
+	--sl-color-black: var(--white);
 }
 
 body {
-    font-family: "Source Serif VF", "Source Serif", sans;
+    font-family: var(--humanist);
     overflow-x: hidden;
-    font-feature-settings: "kern" 1, "liga" 1;
     font-optical-sizing: auto;
     margin: 0;
+    font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures;
+    font-feature-settings: "liga", "dlig", "hlig";
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+    font-kerning: normal;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-synthesis-weight: none;
+    overflow-wrap: break-word
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-family: var(--serif);
+}
+
+.sl-markdown-content :is(h1, h2, h3, h4, h5, h6):not(:where(.not-content *)) {
+    color: var(--sl-color-white);
+    line-height: var(--sl-line-height-headings);
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--serif);
+    text-wrap: balance;
+    font-weight: 400;
+    margin-block-start: 1.875rem;
+    font-variant-ligatures: no-common-ligatures;
+    font-smooth: antialiased;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: -0.27em;
+    margin-top: 0;
+    vertical-align: baseline;
+}
 h1 {
-    /*page title*/
-    margin: 0;
-    font-family: "Source Serif VF", "Source Serif Display";
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    padding: 0.25rem 0 0.25rem 0.75rem;
+    font-size: 3.625rem;
+    line-height: 4rem;
+    letter-spacing: -0.075rem;
 }
-
 h2 {
-    /*weight names in small caps*/
-    margin: 0;
-    font-family: "Source Serif VF", "Source Serif SmText";
-    font-weight: 400;
-    /*font-variation-settings: "opsz" 8;*/
-    font-feature-settings: "c2sc" 1, "smcp" 1;
-    font-size: 1rem;
-    color: #BBB;
-    padding-bottom: 0.25rem;
-    margin-bottom: 0.5rem;
-    letter-spacing: 0.04em;
-    border-bottom: 0.5px solid;
+    font-size: 2.813rem;
+    line-height: 3.25rem;
+    letter-spacing: -0.05rem;
+}
+h3 {
+    font-size: 1.75rem;
+    line-height: 2.625rem;
+    letter-spacing: -0.05rem;
+}
+h2 + p,
+h3 + p {
+    margin-top: var(--spacing-06);
+}
+p {
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+    text-justify: inter-word;
+    overflow-wrap: break-word;
+    hanging-punctuation: first last;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    orphans: 3;
+    widows: 3;
 }

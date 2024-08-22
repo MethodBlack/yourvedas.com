@@ -4,6 +4,26 @@
 @import "@sargamdesign/colors/dist/themes/dark.css";
 @import "@sargamdesign/colors/dist/themes/dark.css";
 
+@font-face{
+    font-family: 'Source Serif VF';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/src/fonts/WOFF2/SourceSerif4Variable-Roman.ttf.woff2') format('woff2-variations'),
+         url('/src/fonts/WOFF/SourceSerif4Variable-Roman.ttf.woff') format('woff-variations'),
+         url('/src/fonts/VAR/SourceSerif4Variable-Roman.ttf') format('truetype-variations');
+}
+
+@font-face{
+    font-family: 'Source Serif VF';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/src/fonts/WOFF2/SourceSerif4Variable-Italic.ttf.woff2') format('woff2-variations'),
+         url('/src/fonts/WOFF/SourceSerif4Variable-Italic.ttf.woff') format('woff-variations'),
+         url('/src/fonts/VAR/SourceSerif4Variable-Italic.ttf') format('truetype-variations');
+}
+
 :root {
     /* sargam colors*/
     --yellow8: hsl(50, 87%, 18%);
@@ -177,4 +197,37 @@
 	--sl-color-gray-6: var(--silver2);
 	--sl-color-gray-7: var(--silver1);
 	--sl-color-black: var(--silver1);
+}
+
+body {
+    font-family: "Source Serif VF", "Source Serif", sans;
+    overflow-x: hidden;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-optical-sizing: auto;
+    margin: 0;
+}
+
+h1 {
+    /*page title*/
+    margin: 0;
+    font-family: "Source Serif VF", "Source Serif Display";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 0.25rem 0 0.25rem 0.75rem;
+}
+
+h2 {
+    /*weight names in small caps*/
+    margin: 0;
+    font-family: "Source Serif VF", "Source Serif SmText";
+    font-weight: 400;
+    /*font-variation-settings: "opsz" 8;*/
+    font-feature-settings: "c2sc" 1, "smcp" 1;
+    font-size: 1rem;
+    color: #BBB;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.04em;
+    border-bottom: 0.5px solid;
 }

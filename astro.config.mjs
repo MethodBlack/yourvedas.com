@@ -22,7 +22,7 @@ export default defineConfig({
 				},
 			],
 			customCss: [
-				'./src/styles/global.css',
+				'./src/styles/global.scss',
 			],
 		}),
 	],

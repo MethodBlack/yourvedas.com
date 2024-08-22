@@ -2,7 +2,6 @@
 @import "@new-ui/spacings";
 @import "@new-ui/typography";
 @import "@new-ui/effects";
-
 @import "@sargamdesign/colors/dist/themes/dark.css";
 @import "@sargamdesign/colors/dist/themes/dark.css";
 
@@ -109,17 +108,17 @@
     --background-subtle: var(--silver7);
     --background: var(--silver8);
 
-	--sl-color-accent-low: #00273d;
-	--sl-color-accent: #0071a7;
-	--sl-color-accent-high: #92d1fe;
-	--sl-color-white: #ffffff;
-	--sl-color-gray-1: #e7eff2;
-	--sl-color-gray-2: #bac4c8;
-	--sl-color-gray-3: #7b8f96;
-	--sl-color-gray-4: #495c62;
-	--sl-color-gray-5: #2a3b41;
-	--sl-color-gray-6: #182a2f;
-	--sl-color-black: #121a1c;
+	--sl-color-accent-low: var(--silver8);
+	--sl-color-accent: var(--link);
+	--sl-color-accent-high: var(--link);
+	--sl-color-white: var(--silver1);
+	--sl-color-gray-1: var(--silver2);
+	--sl-color-gray-2: var(--silver3);
+	--sl-color-gray-3: var(--silver4);
+	--sl-color-gray-4: var(--silver5);
+	--sl-color-gray-5: var(--silver6);
+	--sl-color-gray-6: var(--silver7);
+	--sl-color-black: var(--silver8);
 }
 
 :root[data-theme='light'] {
@@ -167,16 +166,16 @@
     --background-subtle: var(silver2);
     --background: var(silver1);
 
-	--sl-color-accent-low: #b0deff;
-	--sl-color-accent: #0073aa;
-	--sl-color-accent-high: #003653;
-	--sl-color-white: #121a1c;
-	--sl-color-gray-1: #182a2f;
-	--sl-color-gray-2: #2a3b41;
-	--sl-color-gray-3: #495c62;
-	--sl-color-gray-4: #7b8f96;
-	--sl-color-gray-5: #bac4c8;
-	--sl-color-gray-6: #e7eff2;
-	--sl-color-gray-7: #f3f7f9;
-	--sl-color-black: #ffffff;
+	--sl-color-accent-low: var(--silver1);
+	--sl-color-accent: var(--link);
+	--sl-color-accent-high: var(--link);
+	--sl-color-white: var(--silver8);
+	--sl-color-gray-1: var(--silver7);
+	--sl-color-gray-2: var(--silver6);
+	--sl-color-gray-3: var(--silver5);
+	--sl-color-gray-4: var(--silver4);
+	--sl-color-gray-5: var(--silver3);
+	--sl-color-gray-6: var(--silver2);
+	--sl-color-gray-7: var(--silver1);
+	--sl-color-black: var(--silver1);
 }

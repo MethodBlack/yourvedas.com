@@ -4,15 +4,14 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'New Guides',
+			title: 'Handbook',
 			social: {
-				github: 'https://github.com/planetabhi',
+				github: 'https://github.com/New-Templates/handbook',
 			},
 			sidebar: [
 				{
 					label: 'Guides',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
 					],
 				},

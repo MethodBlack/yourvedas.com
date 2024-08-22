@@ -1,5 +1,5 @@
 {
-  "name": "@new-ui/guides",
+  "name": "@new-ui/handbook",
   "version": "0.0.1",
   "description": "An Astro documentation template.",
   "type": "module",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/New-Templates/guides.git"
+    "url": "git+https://github.com/New-Templates/handbook.git"
   },
   "author": "@planetabhi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/New-Templates/guides/issues"
+    "url": "https://github.com/New-Templates/handbook/issues"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.26.1",

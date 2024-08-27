@@ -14,12 +14,12 @@ export default defineConfig({
 				{
 					label: 'Guides',
 					items: [
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Introduction', slug: 'guides/example' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Keyboard Accessibility',
+					autogenerate: { directory: 'keyboard-accessibility' },
 				},
 			],
 			customCss: [

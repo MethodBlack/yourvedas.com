@@ -1,7 +1,7 @@
 {
-  "name": "@new-ui/handbook",
+  "name": "@your-vedas",
   "version": "0.0.1",
-  "description": "An Astro documentation template.",
+  "description": "Sacred books of the east.",
   "type": "module",
   "private": true,
   "scripts": {
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/New-Templates/handbook.git"
+    "url": "git+https://github.com/YourVedas/your-vedas"
   },
   "author": "@planetabhi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/New-Templates/handbook/issues"
+    "url": "https://github.com/YourVedas/your-vedas/issues"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.26.1",

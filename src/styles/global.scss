@@ -24,21 +24,11 @@
 
 :root {
     --serif: 'Source Serif VF', var(--transitional);
-    --sans: var(--geometric-humanist);
-}
-
-:root,
-::backdrop {
-  --sl-hue-base: 250;
-}
-
-:root[data-theme='light'],
-[data-theme='light'] ::backdrop {
-  --sl-hue-base: 17;
+    --sans: var(--classical-humanist);
 }
 
 body {
-    font-family: var(--serif);
+    font-family: var(--sans);
     font-optical-sizing: auto;
     font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures;
     font-feature-settings: "liga", "dlig", "hlig";
@@ -55,12 +45,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
-    font-family: var(--sans);
+    font-family: var(--serif);
 }
 
 p {
     font-weight: 400;
-    font-family: var(--serif);
+    font-family: var(--sans);
 }
 
 h1,

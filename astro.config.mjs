@@ -6,20 +6,18 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			plugins: [starlightThemeRapide()],
-			title: 'Handbook',
+			title: 'Your Vedas',
 			social: {
-				github: 'https://github.com/New-Templates/handbook',
+				github: 'https://github.com/YourVedas/your-vedas',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						{ label: 'Introduction', slug: 'guides/example' },
-					],
+					label: 'Modern Books',
+					autogenerate: { directory: 'modern' },
 				},
 				{
-					label: 'Keyboard Accessibility',
-					autogenerate: { directory: 'keyboard-accessibility' },
+					label: 'Vedas',
+					autogenerate: { directory: 'vedas' },
 				},
 			],
 			customCss: [

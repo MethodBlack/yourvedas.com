@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Sadhana
+title: VIII. The Realisation of the Infinite
 description: The Realisation of Life.
 author: Rabindranath Tagore
 ---

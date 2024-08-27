@@ -19,6 +19,22 @@ export default defineConfig({
 					label: 'Vedas',
 					autogenerate: { directory: 'vedas' },
 				},
+				{
+					label: 'Puranas',
+					autogenerate: { directory: 'puranas' },
+				},
+				{
+					label: 'Upanishads',
+					autogenerate: { directory: 'upanishads' },
+				},
+				{
+					label: 'Vedanta',
+					autogenerate: { directory: 'vedanta' },
+				},
+				{
+					label: 'Bhagavad Gita',
+					autogenerate: { directory: 'bhagavad-gita' },
+				},
 			],
 			customCss: [
 				'./src/styles/global.scss',

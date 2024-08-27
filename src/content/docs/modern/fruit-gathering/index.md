@@ -5,7 +5,7 @@ description: Fruit-Gathering
 author: Rabindranath Tagore
 ---
 
-# Fruit-Gathering [1916]
+# Fruit Gathering [1916]
 *—By Rabindranath Tagore*
 
 > Translated from Bengali to English by the author. New York: The Macmillan Company, 1916

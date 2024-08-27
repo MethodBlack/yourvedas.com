@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Sadhana
+title: VI. Realisation in Action
 description: The Realisation of Life.
 author: Rabindranath Tagore
 ---

@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: The Yoga Sutras of Patanjali
+title: Book IV
 description: The Book of the Spiritual Man
 author: Charles Johnston
 ---

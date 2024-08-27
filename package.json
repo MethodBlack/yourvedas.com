@@ -1,5 +1,5 @@
 {
-  "name": "@your-vedas",
+  "name": "your-vedas",
   "version": "0.0.1",
   "description": "Sacred books of the east.",
   "type": "module",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YourVedas/your-vedas"
+    "url": "git+https://github.com/MethodBlack/your-vedas"
   },
   "author": "@planetabhi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YourVedas/your-vedas/issues"
+    "url": "https://github.com/MethodBlack/your-vedas/issues"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.26.1",

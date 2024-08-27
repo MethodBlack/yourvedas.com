@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Sadhana
+title: IV. The Problem of Self
 description: The Realisation of Life.
 author: Rabindranath Tagore
 ---

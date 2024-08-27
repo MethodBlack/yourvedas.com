@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Sadhana
+title: V. Realisation in Love
 description: The Realisation of Life.
 author: Rabindranath Tagore
 ---

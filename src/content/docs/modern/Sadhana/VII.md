@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Sadhana
+title: VII. The Realisation of Beauty
 description: The Realisation of Life.
 author: Rabindranath Tagore
 ---

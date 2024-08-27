@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Sadhana
+title: I. The Relation of the Individual to the Universe
 description: The Realisation of Life.
 author: Rabindranath Tagore
 ---

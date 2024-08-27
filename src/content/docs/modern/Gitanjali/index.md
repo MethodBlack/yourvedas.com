@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Gitanjali
+title: Gitanjali—Song Offerings [1913]
 description: Song Offerings
 author: Rabindranath Tagore
 ---

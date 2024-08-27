@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Thought Relics
+title: Thought Relics [1921]
 description: Thought Relics
 author: Rabindranath Tagore
 ---

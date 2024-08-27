@@ -1,6 +1,6 @@
 ---
 lang: en-US
-title: Stray Birds
+title: Stray Birds [1916]
 description: Thought Relics
 author: Rabindranath Tagore
 ---

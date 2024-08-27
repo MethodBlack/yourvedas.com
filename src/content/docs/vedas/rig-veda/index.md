@@ -9,4 +9,4 @@ The Rig Veda consists of 1028 hymns, organised into ten books known as maṇḍa
 ## The Rig Veda in Sanskrit
 This is an experimental Sanskrit version of the Rig Veda.
 
-- 📕 [The Rig Veda in Sanskrit](./sanskrit/index.md)
+- 📕 [The Rig Veda in Sanskrit](./sanskrit/)

@@ -7,9 +7,6 @@ export default defineConfig({
 		starlight({
 			plugins: [starlightThemeRapide()],
 			title: 'Your Vedas',
-			social: {
-				github: 'https://github.com/YourVedas/your-vedas',
-			},
 			sidebar: [
 				{
 					label: 'Modern Books',

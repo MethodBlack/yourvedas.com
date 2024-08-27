@@ -9,12 +9,12 @@ author: Rabindranath Tagore
 *—By Rabindranath Tagore*
 
 ### Contents
-- [Author's Preface](./preface.md)
-- [I. The Relation of the Individual to the Universe](./I.md)
-- [II. Soul Consciousness](./II.md)
-- [III. The Problem of Evil](./III.md)
-- [IV. The Problem of Self](./IV.md)
-- [V. Realisation in Love](./V.md)
-- [VI. Realisation in Action](./VI.md)
-- [VII. The Realisation of Beauty](./VII.md)
-- [VIII. The Realisation of the Infinite](./VIII.md)
+- [Author's Preface](./preface/)
+- [I. The Relation of the Individual to the Universe](./I/)
+- [II. Soul Consciousness](./II/)
+- [III. The Problem of Evil](./III/)
+- [IV. The Problem of Self](./IV/)
+- [V. Realisation in Love](./V/)
+- [VI. Realisation in Action](./VI/)
+- [VII. The Realisation of Beauty](./VII/)
+- [VIII. The Realisation of the Infinite](./VIII/)

@@ -24,6 +24,7 @@
 
 :root {
     --serif: 'Source Serif VF', var(--transitional);
+    --sans: var(--geometric-humanist);
 }
 
 :root,
@@ -37,7 +38,7 @@
 }
 
 body {
-    font-family: var(--geometric-humanist);
+    font-family: var(--serif);
     font-optical-sizing: auto;
     font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures;
     font-feature-settings: "liga", "dlig", "hlig";
@@ -54,12 +55,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
-    font-family: var(--serif);
+    font-family: var(--sans);
 }
 
 p {
     font-weight: 400;
-    font-family: var(--sans);
+    font-family: var(--serif);
 }
 
 h1,

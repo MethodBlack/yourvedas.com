@@ -11,7 +11,11 @@ export default defineConfig({
   integrations: [sitemap()],
   integrations: [starlight({
     plugins: [starlightThemeRapide()],
-    title: 'Your Vedas',
+    title: '',
+	logo: {
+		light: './src/assets/yourvedas-light.svg',
+		dark: './src/assets/yourvedas-dark.svg',
+	},
     sidebar: [{
       label: 'Modern Books',
       items: [{

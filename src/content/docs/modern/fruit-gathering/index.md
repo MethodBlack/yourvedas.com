@@ -3,13 +3,10 @@ lang: en-US
 title: Fruit-Gathering
 description: Fruit-Gathering
 author: Rabindranath Tagore
+banner:
+  content: |
+    Translated from Bengali to English by the author. New York: The Macmillan Company, 1916
 ---
-
-# Fruit Gathering [1916]
-*—By Rabindranath Tagore*
-
-> Translated from Bengali to English by the author. New York: The Macmillan Company, 1916
-
 
 ### I
 Bid me and I shall gather my fruits to bring them in full baskets into your courtyard, though some are lost and some not ripe.

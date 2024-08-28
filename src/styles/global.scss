@@ -3,27 +3,23 @@
 @import "@new-ui/typography";
 
 @font-face{
-    font-family: 'Source Serif VF';
-    font-weight: 200 900;
-    font-style: normal;
+    font-family: 'Garamond';
+    font-weight: 400;
+    font-style: regular;
     font-stretch: normal;
-    src: url('/src/fonts/WOFF2/SourceSerif4Variable-Roman.ttf.woff2') format('woff2-variations'),
-         url('/src/fonts/WOFF/SourceSerif4Variable-Roman.ttf.woff') format('woff-variations'),
-         url('/src/fonts/VAR/SourceSerif4Variable-Roman.ttf') format('truetype-variations');
+    src: url('/src/fonts/WOFF2/EBGaramond-Regular.woff2');
 }
 
 @font-face{
-    font-family: 'Source Serif VF';
-    font-weight: 200 900;
-    font-style: italic;
-    font-stretch: normal;
-    src: url('/src/fonts/WOFF2/SourceSerif4Variable-Italic.ttf.woff2') format('woff2-variations'),
-         url('/src/fonts/WOFF/SourceSerif4Variable-Italic.ttf.woff') format('woff-variations'),
-         url('/src/fonts/VAR/SourceSerif4Variable-Italic.ttf') format('truetype-variations');
+  font-family: 'Garamond';
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('/src/fonts/WOFF2/EBGaramond-Italic.woff2');
 }
 
 :root {
-    --serif: 'Source Serif VF', var(--transitional);
+    --serif: 'Garamond', var(--transitional);
     --sans: var(--geometric-humanist);
 }
 
@@ -89,8 +85,8 @@ h6 {
 }
 
 p {
-    font-size: var(--desktop-body-xl);
-    line-height: var(--lh-desktop-body-xl);
+    font-size: var(--desktop-body);
+    line-height: var(--lh-desktop-body);
     text-justify: inter-word;
     overflow-wrap: break-word;
     hanging-punctuation: first last;
@@ -101,42 +97,51 @@ p {
     widows: 3;
 }
   
-  /* Hero */
-  
-  .hero .action {
-    border: 1px solid transparent;
-    padding: 0.75rem 1rem;
-  }
-  
-  .hero .action svg {
-    font-size: 1.25rem;
-  }
-  
-  .hero .action.primary {
-    background-color: var(--sl-color-green-low);
-    border: 1px solid var(--sl-color-green);
-    color: var(--sl-color-green-high);
-  }
-  
-  .hero .action.primary:is(:hover, :focus-visible) {
-    border-color: oklch(52% 0.11 var(--sl-hue-green));
-    color: var(--sl-color-green-accent-invert);
-  }
-  
-  .hero .action.secondary {
-    border-color: var(--sl-color-gray-2);
-    color: var(--sl-color-gray-2);
-  }
-  
-  .hero .action.secondary:is(:hover, :focus-visible) {
-    border-color: var(--sl-color-accent-high);
-    color: var(--sl-color-accent-high);
-  }
-  
-  .hero .action.minimal:is(:hover, :focus-visible) {
-    color: var(--sl-color-accent-high);
-  }
-  
-  .hero .action.minimal {
-    padding-inline: 0.25rem;
-  }
+/* Hero */
+
+.hero .action {
+  border: 1px solid transparent;
+  padding: 0.75rem 1rem;
+}
+
+.hero .action svg {
+  font-size: 1.25rem;
+}
+
+.hero .action.primary {
+  background-color: var(--sl-color-green-low);
+  border: 1px solid var(--sl-color-green);
+  color: var(--sl-color-green-high);
+}
+
+.hero .action.primary:is(:hover, :focus-visible) {
+  border-color: oklch(52% 0.11 var(--sl-hue-green));
+  color: var(--sl-color-green-accent-invert);
+}
+
+.hero .action.secondary {
+  border-color: var(--sl-color-gray-2);
+  color: var(--sl-color-gray-2);
+}
+
+.hero .action.secondary:is(:hover, :focus-visible) {
+  border-color: var(--sl-color-accent-high);
+  color: var(--sl-color-accent-high);
+}
+
+.hero .action.minimal:is(:hover, :focus-visible) {
+  color: var(--sl-color-accent-high);
+}
+
+.hero .action.minimal {
+  padding-inline: 0.25rem;
+}
+
+
+ul:where(.astro-ddsugoka) {
+  --sl-sidebar-item-padding-inline: 0.5rem !important;
+}
+
+div.sidebar-pane .top-level > li + li {
+  margin-top: var(--spacing-03) !important;
+}

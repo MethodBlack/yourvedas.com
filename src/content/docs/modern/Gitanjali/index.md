@@ -3,12 +3,11 @@ lang: en-US
 title: Gitanjali—Song Offerings [1913]
 description: Song Offerings
 author: Rabindranath Tagore
+banner:
+  content: |
+    The Gitanjali or *song offerings* by Rabindranath Tagore (1861--1941), Nobel prize for literature 1913, with an introduction by William B. Yeats (1865--1939), Nobel prize for literature 1923. First published in 1913.
 ---
 
-# Gitanjali—Song Offerings [1913]
-*—By Rabindranath Tagore*
-
-> The Gitanjali or *song offerings* by Rabindranath Tagore (1861--1941), Nobel prize for literature 1913, with an introduction by William B. Yeats (1865--1939), Nobel prize for literature 1923. First published in 1913. This work is in public domain according to the Berne convention since January 1st 1992.
 
 ### GITANJALI
 

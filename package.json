@@ -1,7 +1,7 @@
 {
   "name": "your-vedas",
   "version": "0.0.1",
-  "description": "Sacred Quest of Books of the East.",
+  "description": "Sacred Books of the East",
   "type": "module",
   "private": true,
   "scripts": {

@@ -137,6 +137,7 @@ p {
   padding-inline: 0.25rem;
 }
 
+/* Sidebar */
 
 ul:where(.astro-ddsugoka) {
   --sl-sidebar-item-padding-inline: 0.5rem !important;
@@ -144,4 +145,13 @@ ul:where(.astro-ddsugoka) {
 
 div.sidebar-pane .top-level > li + li {
   margin-top: var(--spacing-03) !important;
+}
+
+.large:where(.astro-ddsugoka) {
+  font-weight: 400;
+}
+
+.right-sidebar-panel:where(.astro-lpg6qztn) h2 {
+  font-family: var(--sans);
+  font-weight: 400;
 }

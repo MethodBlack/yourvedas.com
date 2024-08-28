@@ -3,12 +3,10 @@ lang: en-US
 title: Love and Death
 description: Thought Relics
 author: Sri Aurobindo
+banner:
+  content: |
+    This is a blank-verse (unrhymed iambic pentameter) retelling of a popular story from the Mahabharata, the tale of Ruru and Priyumvada. The hero, Ruru, quests into the afterlife to beg for the resurrection of his beloved bride, Priyumvada, killed by snake-bite. Death's bargain with Ruru is that he is to give up half his life so that Priyumvada can live again. This is a common theme in world mythology: Orpheus, Gilgamesh, and many others take the same journey. 
 ---
-
-# Love and Death [1921]
-*—By Sri Aurobindo*
-
-> This is a blank-verse (unrhymed iambic pentameter) retelling of a popular story from the Mahabharata, the tale of Ruru and Priyumvada. The hero, Ruru, quests into the afterlife to beg for the resurrection of his beloved bride, Priyumvada, killed by snake-bite. Death's bargain with Ruru is that he is to give up half his life so that Priyumvada can live again. This is a common theme in world mythology: Orpheus, Gilgamesh, and many others take the same journey.
 
 ##### p.1
 IN woodlands of the bright and early world,

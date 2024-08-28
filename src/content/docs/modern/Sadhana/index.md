@@ -5,8 +5,6 @@ description: The Realisation of Life.
 author: Rabindranath Tagore
 ---
 
-### Author's Preface
-
 Perhaps it is well for me to explain that the subject-matter of the papers published in this book has not been philosophically treated, nor has it been approached from the scholar's point of view. The writer has been brought up in a family where texts of the Upanishads are used in daily worship; and he has had before him the example of his father, who lived his long life in the closest communion with God, while not neglecting his duties to the world, or allowing his keen interest in all human affairs to suffer any abatement. So in these papers, it may be hoped, western readers will have an opportunity of coming into touch with the ancient spirit of India as revealed in our sacred texts and manifested in the life of to-day.
 
 All the great utterances of man have to be judged not by the letter but by the spirit--the spirit which unfolds itself with the growth of life in history. We get to know the real meaning of Christianity by observing its living aspect at the present moment--however different that may be, even in important respects, from the Christianity of earlier periods.

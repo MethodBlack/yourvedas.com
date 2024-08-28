@@ -3,14 +3,10 @@ lang: en-US
 title: Thought Relics [1921]
 description: Thought Relics
 author: Rabindranath Tagore
+banner:
+  content: |
+    Proofed and formatted by John Bruno Hare. This text is in the public domain in the United States because it was published prior to January 1st, 1923. These files may be used for any non-commercial purpose provided this notice of attribution is left intact in all copies.
 ---
-
-# Thought Relics [1921]
-*—By Rabindranath Tagore*
-
-> Proofed and formatted by *John Bruno Hare*. This text is in the public domain in the United States because it was published prior to January 1st, 1923. These files may be used for any non-commercial purpose provided this notice of attribution is left intact in all copies.
-
-### THOUGHT RELICS
 
 LAST night I dreamt that I was the same boy that I had been before my mother died. She sat in a room in a garden house on the bank of the Ganges. I carelessly passed by without paying attention to her, when all of a sudden it flashed through my mind with an unutterable longing that my mother was there. At once I stopped and went back to her and bowing low touched her feet with my head. She held my hand, looked into my face, and said: "You have come!"
 

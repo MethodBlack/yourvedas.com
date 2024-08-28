@@ -4,8 +4,6 @@ title: The Rig Veda, Book 2
 description: Experimental Sanskrit version of the Rig Veda.
 ---
 
-# The Rig Veda, Book 2
-
 ## Hymn 1
 तवमग्ने दयुभिस्त्वमाशुशुक्षणिस्त्वमद्भ्यस्त्वमश्मनस परि |
 तवं वनेभ्यस्त्वमोषधीभ्यस्त्वं नर्णां नर्पते जायसे शुचिः ||

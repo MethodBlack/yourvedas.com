@@ -5,7 +5,6 @@ description: The Book of the Spiritual Man
 author: Charles Johnston
 ---
 
-# Introduction
 The third book of the Sutras has fairly completed the history of the birth and growth of the spiritual man, and the enumeration of his powers; at least so far as concerns that first epoch in his immortal life, which immediately succeeds, and supersedes, the life of the natural man.
 
 In the fourth book, we are to consider what one might call the mechanism of salvation, the ideally simple working of cosmic law which brings the spiritual man to birth, growth, and fulness of power, and prepares him for the splendid, toilsome further stages of his great journey home.

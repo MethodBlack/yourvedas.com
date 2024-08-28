@@ -3,13 +3,11 @@ lang: en-US
 title: The Bhagavad Gita
 description: A modern prose translation of the Gita, sanctioned by the International Gita Society.
 author: International Gita Society 
+banner:
+  content: |
+    A modern prose translation of the Gita, sanctioned by the International Gita Society. 
 ---
 
-# The Bhagavad Gita
-A modern prose translation of the Gita, sanctioned by the International Gita Society. 
-
-
-## INTRODUCTION
 
 The Gita is a doctrine of universal truth. Its message is universal, sublime, and non-sectarian although it is a part of the scriptural trinity of Sanaatana Dharma, commonly known as Hinduism. The Gita is very easy to understand in any language for a mature mind. A repeated reading with faith will reveal all the sublime ideas contained in it. A few abstruse statements are interspersed here and there but they have no direct bearing on practical issues or the central theme of Gita. The Gita deals with the most sacred metaphysical science. It imparts the knowledge of the Self and answers two universal questions: Who am I, and how can I lead a happy and peaceful life in this world of dualities. It is a book of yoga, the moral and spiritual growth, for mankind based on the cardinal principles of Hindu religion.
 

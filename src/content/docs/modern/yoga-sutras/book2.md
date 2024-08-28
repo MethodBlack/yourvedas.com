@@ -5,7 +5,6 @@ description: The Book of the Spiritual Man
 author: Charles Johnston
 ---
 
-# Introduction
 The first book of Patanjali's Yoga Sutras is called the Book of Spiritual Consciousness. The second book, which we now begin, is the Book of the Means of Soul Growth. And we must remember that soul growth here means the growth of the realization of the spiritual man, or, to put the matter more briefly, the growth of the spiritual man, and the disentangling of the spiritual man from the wrappings, the veils, the disguises laid upon him by the mind and the psychical nature, wherein he is enmeshed, like a bird caught in a net.
 
 The question arises: By what means may the spiritual man be freed from these psychical meshes and disguises, so that he may stand forth above death, in his radiant eternalness and divine power? And the second book sets itself to answer this very question, and to detail the means in a way entirely practical and very lucid, so that he who runs may read, and he who reads may understand and practise.

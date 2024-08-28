@@ -4,8 +4,6 @@ title: The Rig Veda, Book 3
 description: Experimental Sanskrit version of the Rig Veda.
 ---
 
-# The Rig Veda, Book 3
-
 ## Hymn 1
 सोमस्य मा तवसं वक्ष्यग्ने वह्निं चकर्थ विदथे यजध्यै |
 देवानछा दीद्यद युञ्जे अद्रिं शमाये अग्ने तन्वंजुषस्व ||

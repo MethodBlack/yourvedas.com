@@ -4,8 +4,6 @@ title: The Rig Veda, Book 1
 description: Experimental Sanskrit version of the Rig Veda.
 ---
 
-# The Rig Veda, Book 1
-
 ## Hymn 1
 अग्निमीळे पुरोहितं यज्ञस्य देवं रत्वीजम |
 होतारं रत्नधातमम ||

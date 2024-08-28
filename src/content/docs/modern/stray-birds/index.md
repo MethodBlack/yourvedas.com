@@ -3,12 +3,10 @@ lang: en-US
 title: Stray Birds [1916]
 description: Thought Relics
 author: Rabindranath Tagore
+banner:
+  content: |
+    Translated from Bengali to English by the author. New York: The Macmillan Company, 1916 
 ---
-
-# Stray Birds [1916]
-*—By Rabindranath Tagore*
-
-> Translated from Bengali to English by the author. New York: The Macmillan Company, 1916
 
 ### 1
 Stray birds of summer come to my window to sing and fly away. And yellow leaves of autumn, which have no songs, flutter and fall there with a sigh.

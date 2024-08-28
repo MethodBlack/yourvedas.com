@@ -1,8 +1,11 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightThemeRapide from 'starlight-theme-rapide';
+import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
+	site: 'https://yourvedas.com',
+	integrations: [sitemap()],
 	integrations: [
 		starlight({
 			plugins: [starlightThemeRapide()],

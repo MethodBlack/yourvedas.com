@@ -1,7 +1,7 @@
 {
   "name": "your-vedas",
   "version": "0.0.1",
-  "description": "Sacred books of the east.",
+  "description": "Sacred Quest of Books of the East.",
   "type": "module",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "url": "https://github.com/MethodBlack/your-vedas/issues"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.1.6",
     "@astrojs/starlight": "^0.26.1",
     "astro": "^4.14.5"
   },
